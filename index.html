@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flor de Loto</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    video {
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted playsinline>
+    <source src="Loto.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
+```
+
+---
+
+Tu carpeta debe quedar así:
+```
+Naomi 3/
+├── _pycache_/
+├── media/
+├── LotoNahomi.py
+├── Dockerfile
+├── railway.toml
+├── index.html
+└── Loto.mp4        ← el video generado por manim
